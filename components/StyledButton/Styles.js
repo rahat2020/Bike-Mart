@@ -3,7 +3,7 @@ import {StyleSheet} from 'react-native';
 const styles = StyleSheet.create({
     container: {
         width: '100%',
-        padding:'20px',
+        padding:'10px',
     
     },
     button:{
@@ -14,7 +14,10 @@ const styles = StyleSheet.create({
         padding: '10px'
     },
     text:{
-        fontWeight:'500', textTransform: 'uppercase', cursor: 'pointer'
+        fontWeight:'500', 
+        fontSize: 12,
+        textTransform: 'uppercase',
+        
     }
 })
 
